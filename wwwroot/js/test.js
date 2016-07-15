@@ -1,0 +1,2 @@
+angular.module("flapperNews",["ui.router"]).config(["$stateProvider","$urlRouterProvider",function(t,e){t.state("home",{url:"/home",templateUrl:"/home.html",controller:"MainCtrl",resolve:{postsPromise:["posts",function(t){t.getAll()}]}}).state("posts",{url:"/posts/{id}",templateUrl:"/posts.html",controller:"PostsCtrl",resolve:{post:["$stateParams","posts",function(t,e){return e.get(t.id)}]}}),e.otherwise("home")}]);
+//# sourceMappingURL=test.js.map
