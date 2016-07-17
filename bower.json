@@ -6,6 +6,6 @@
     "jquery": "2.2.3",
     "jquery-validation": "1.15.0",
     "jquery-validation-unobtrusive": "3.2.6",
-    "material-ui": "^0.15.2"
+    "Materialize": "materialize#^0.97.6"
   }
 }
